@@ -9,4 +9,4 @@ There are two shading techniques supported: Flat Shading and Gouraud Shading.
 2) Gouraud Shading calculates the color of each pixel using linear interpolation between the color of the three vertices.
 
 # Demos
-The two demos show the usage of the functions for the two techniques and save the images.
+The two demos show the usage of the functions for the two techniques.
