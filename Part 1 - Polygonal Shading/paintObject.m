@@ -1,4 +1,13 @@
 function I = paintObject(V, F, C, D, painter)
+%Inputs:
+%V: Array with the coordinates of the vertices.
+%F: Array with each line pointing to the three vertices of a triangle.
+%C: Array with the color of the vertices.
+%D: Vector with the depth of each vertice.
+%painter: String that defines the Shading Technique to be used.
+
+%Output:
+%I: The image containing the painted object.
     
     %Initialize canvas.
     M = 1200;
