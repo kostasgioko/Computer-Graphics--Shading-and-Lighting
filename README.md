@@ -1,5 +1,5 @@
 # Computer-Graphics--Shading-and-Lighting
-A Computer Graphics Lighting model implemented in Matlab for the 'Computer Graphics' university course.
+A Computer Graphics object lighting model implemented in Matlab for the 'Computer Graphics' university course.
 
 # Project
 The project is split into three parts.
