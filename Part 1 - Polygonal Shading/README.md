@@ -1,5 +1,5 @@
 # Part 1 - Polygonal Shading
-The goal of this part is to paint the polygons that compose the virtual object. In this implementation the polygons are assumed to be triangles.
+The goal of this part is to paint the polygons that compose the virtual object. In this implementation the polygons are assumed to be triangles. The triangle filling is done using the Scan Line algorithm.
 
 # Shading Techniques
 There are two shading techniques supported: Flat Shading and Gouraud Shading.
