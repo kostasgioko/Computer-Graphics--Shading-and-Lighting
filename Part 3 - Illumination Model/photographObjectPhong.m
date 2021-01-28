@@ -1,4 +1,26 @@
 function Im = photographObjectPhong(shader, f, C, K, u, bC, M, N, H, W, R, F, S, ka, kd, ks, ncoeff, Ia, I0)
+%Inputs:
+%shader: Which shader to use. '1' for Gouraud, '2' for Phong.
+%f: Focal length of the camera.
+%C: Center of camera coordinates.
+%K: Camera target point coordinates.
+%u: Camera up vector coordinates.
+%bC: Background color.
+%M, N: Image dimensions.
+%H, W: Camera panel dimensions.
+%R: Array with the coordinates of the vertices.
+%F: Array with each line pointing to the three vertices of a triangle.
+%S: Coordinates of light sources.
+%ka: Ambient light coefficients.
+%kd: Diffuse light coefficients.
+%ks: Specular light coefficients.
+%ncoeff: Phong coefficient.
+%Ia: Ambient light intensity.
+%I0: Light source intensities.
+
+%Output:
+%Im: The image containing the object.
+
     %This function creates the image of a 3D object.
     
     % 1) Initialize canvas.
